@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to top,white,rgb(129, 129, 212));
+}
+
+
+header{
+    background-color: black;
+    height: 100px;
+}
+
+.titulo{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  
+    
+
+}
+
+h1{
+    background-image: url(logo.gif);
+    background-attachment: fixed 10px;
+    background-clip: text;
+    background-position:10px -120px ;
+   
+    font-family: fantasy;
+    color: transparent;
+    margin-top: -0px;
+
+}
+
+.main{
+    background-image: url(primeira.jpg);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+ 
+}
+
+#um{
+    color: white;
+    background-color: black;
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.display{
+    background-attachment: fixed;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+   
+    width: 1000px;
+    height: 600px;
+    overflow-x: scroll;
+    
+    
+}
+img{
+    width: 1000px;
+    height: 600px;
+}
+#quarta{
+    width: 300px;
+}
+#segunda{
+    width: 900px;
+    animation: carrossel 3s ease-in-out;
+}
+
+
+
+
+@keyframes carrossel{
+0%{
+   margin-left: 1000px;
+}
+25%{
+    margin-left: -2000px ;
+}
+}
+
+
+
+p{
+    font-weight: bolder;
+    font-size: 50px;
+}
