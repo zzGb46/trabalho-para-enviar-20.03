@@ -60,9 +60,13 @@ h1{
     display: flex;
     justify-content: center;
    
-    width: 1000px;
+    width: 800px;
     height: 600px;
-    overflow-x: scroll;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    border: 10px solid orange;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     
     
 }
@@ -70,23 +74,36 @@ img{
     width: 1000px;
     height: 600px;
 }
-#quarta{
-    width: 300px;
+
+#mandy{
+
+}
+
+#primeira{
+    width: 10000px;
+    animation: carrossel 20s infinite;
+}
+
+#terceira{
+    width: 800px;
 }
 #segunda{
-    width: 900px;
-    animation: carrossel 3s ease-in-out;
+    width: 800px;
 }
+
 
 
 
 
 @keyframes carrossel{
 0%{
-   margin-left: 1000px;
+   margin-left:-3000px;
 }
 25%{
-    margin-left: -2000px ;
+    margin-left:-00px ;
+}
+50%{
+    margin-left:3000px;
 }
 }
 
